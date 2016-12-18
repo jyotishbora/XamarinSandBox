@@ -17,7 +17,7 @@ namespace XamarinSandBox.Droid
     [Activity(
         MainLauncher = true,
         Label = "@string/ApplicationName",
-        Theme = "@style/Theme.Splash", NoHistory = true,
+        Theme = "@style/AppTheme.Splash", NoHistory = true,
         ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation,
         ScreenOrientation = ScreenOrientation.Portrait)]
     public class SplashScreen : MvxSplashScreenActivity

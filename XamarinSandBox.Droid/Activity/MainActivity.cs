@@ -6,6 +6,7 @@ using System.Text;
 using Android.App;
 using Android.Content;
 using Android.Content.PM;
+using Android.Content.Res;
 using Android.OS;
 using Android.Runtime;
 using Android.Support.V4.Widget;
@@ -44,7 +45,7 @@ namespace XamarinSandBox.Droid.Activity
             _drawerToggle = new MvxActionBarDrawerToggle(
                 this, // host Activity
                 _drawerLayout, // DrawerLayout object
-                // toolbar, // nav drawer icon to replace 'Up' caret
+                 toolbar, // nav drawer icon to replace 'Up' caret
                 Resource.String.drawer_open, // "open drawer" description
                 Resource.String.drawer_close // "close drawer" description
             );
@@ -52,7 +53,7 @@ namespace XamarinSandBox.Droid.Activity
             _drawerToggle.DrawerClosed += _drawerToggle_DrawerClosed;
             _drawerToggle.DrawerOpened += _drawerToggle_DrawerOpened;
 
-            SupportActionBar.SetDisplayShowTitleEnabled(false);
+            SupportActionBar.SetDisplayShowTitleEnabled(true);
             SupportActionBar.SetDisplayHomeAsUpEnabled(true);
             _drawerToggle.DrawerIndicatorEnabled = true;
             _drawerLayout.SetDrawerListener(_drawerToggle);
@@ -69,6 +70,18 @@ namespace XamarinSandBox.Droid.Activity
         private void _drawerToggle_DrawerClosed(object sender, ActionBarDrawerEventArgs e)
         {
             InvalidateOptionsMenu();
+        }
+
+        protected override void OnPostCreate(Bundle savedInstanceState)
+        {
+            base.OnPostCreate(savedInstanceState);
+            _drawerToggle.SyncState();
+        }
+
+        public override void OnConfigurationChanged(Configuration newConfig)
+        {
+            base.OnConfigurationChanged(newConfig);
+            _drawerToggle.SyncState();
         }
     }
 }

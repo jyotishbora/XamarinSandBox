@@ -9,7 +9,7 @@
     <item name="colorPrimary">@color/primary</item>
     <item name="colorPrimaryDark">@color/primaryDark</item>
     <item name="colorAccent">@color/accent</item>
-		<item name="android:fontFamily">sans-serif-light</item>
+		<item name="android:fontFamily">sans-serif-condensed</item>
     <item name="drawerArrowStyle">@style/MyDrawerArrowStyle</item>
   </style>
   <style name="MyDrawerArrowStyle" parent="Widget.AppCompat.DrawerArrowToggle">
@@ -45,5 +45,6 @@
 
   <style name="AppTheme.Splash" parent="AppTheme.Base">
     <item name="android:statusBarColor">@color/colorPrimaryDark</item>
+    <item name="android:background">@drawable/scaledBackground</item>
   </style>
 </resources>
