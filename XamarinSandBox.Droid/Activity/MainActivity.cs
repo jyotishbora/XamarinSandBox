@@ -59,7 +59,7 @@ namespace XamarinSandBox.Droid.Activity
             _drawerLayout.SetDrawerListener(_drawerToggle);
             ViewModel.ShowMenu();
             ViewModel.ShowFirstViewModel();
-
+             
         }
 
         private void _drawerToggle_DrawerOpened(object sender, ActionBarDrawerEventArgs e)
