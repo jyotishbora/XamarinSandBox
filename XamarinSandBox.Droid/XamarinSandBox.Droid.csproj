@@ -153,6 +153,7 @@
     <Compile Include="SpashScreen.cs" />
     <Compile Include="View\FirstViewFragment.cs" />
     <Compile Include="View\MenuFragment.cs" />
+    <Compile Include="View\HomeFragment.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="GettingStarted.Xamarin" />
@@ -180,6 +181,7 @@
     <AndroidResource Include="Resources\layout\fragment_navigation_header.axml" />
     <AndroidResource Include="Resources\layout\fragment_navigation.axml" />
     <AndroidResource Include="Resources\menu\navigation_drawer.axml" />
+    <AndroidResource Include="Resources\layout\fragment_home.axml" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\values\Strings.xml" />
