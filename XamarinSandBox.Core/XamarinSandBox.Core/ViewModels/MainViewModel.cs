@@ -16,7 +16,7 @@ namespace XamarinSandBox.Core.ViewModels
 
         public void ShowFirstViewModel()
         {
-            ShowViewModel<HomeViewModel>();
+            ShowViewModel<FirstViewModel>();
         }
     }
 }

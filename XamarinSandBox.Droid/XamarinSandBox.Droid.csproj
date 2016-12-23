@@ -153,9 +153,7 @@
     <Compile Include="Setup.cs" />
     <Compile Include="SpashScreen.cs" />
     <Compile Include="View\FirstViewFragment.cs" />
-    <Compile Include="View\HomeViewFragment.cs" />
     <Compile Include="View\MenuFragment.cs" />
-    <Compile Include="View\HomeFragment.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="GettingStarted.Xamarin" />

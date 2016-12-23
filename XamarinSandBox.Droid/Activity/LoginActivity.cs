@@ -16,8 +16,7 @@ using XamarinSandBox.Core.ViewModels;
 
 namespace XamarinSandBox.Droid.Activity
 {
-    [Activity(
-       Label = "Examples",
+    [Activity(Label = "Examples",
        Theme = "@style/AppTheme.Login",
        LaunchMode = LaunchMode.SingleTop,
        ConfigurationChanges = ConfigChanges.Orientation | ConfigChanges.ScreenSize,

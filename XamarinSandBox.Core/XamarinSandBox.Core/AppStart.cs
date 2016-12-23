@@ -13,7 +13,7 @@ namespace XamarinSandBox.Core
         public void Start(object hint = null)
         {
 
-            ShowViewModel<MainViewModel>();
+            ShowViewModel<LoginViewModel>();
 
         }
     }

@@ -17,6 +17,7 @@
   <color name="colorPrimary">#85E76E</color>
   <color name="colorPrimaryDark">#6CBD5C</color>
   <color name="colorAccent">#C2EF66</color>
+  <color name="colorLoginButton">#5FBA7D</color>
 
   <!-- White to Black -->
   <color name="white">#FFFFFF</color>

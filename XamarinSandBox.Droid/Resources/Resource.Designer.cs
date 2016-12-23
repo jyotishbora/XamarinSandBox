@@ -1167,35 +1167,35 @@ namespace XamarinSandBox.Droid
 		public partial class Color
 		{
 			
-			// aapt resource value: 0x7f08005a
-			public const int abc_background_cache_hint_selector_material_dark = 2131230810;
-			
 			// aapt resource value: 0x7f08005b
-			public const int abc_background_cache_hint_selector_material_light = 2131230811;
+			public const int abc_background_cache_hint_selector_material_dark = 2131230811;
 			
 			// aapt resource value: 0x7f08005c
-			public const int abc_btn_colored_borderless_text_material = 2131230812;
+			public const int abc_background_cache_hint_selector_material_light = 2131230812;
 			
 			// aapt resource value: 0x7f08005d
-			public const int abc_color_highlight_material = 2131230813;
+			public const int abc_btn_colored_borderless_text_material = 2131230813;
+			
+			// aapt resource value: 0x7f08005e
+			public const int abc_color_highlight_material = 2131230814;
 			
 			// aapt resource value: 0x7f080004
 			public const int abc_input_method_navigation_guard = 2131230724;
 			
-			// aapt resource value: 0x7f08005e
-			public const int abc_primary_text_disable_only_material_dark = 2131230814;
-			
 			// aapt resource value: 0x7f08005f
-			public const int abc_primary_text_disable_only_material_light = 2131230815;
+			public const int abc_primary_text_disable_only_material_dark = 2131230815;
 			
 			// aapt resource value: 0x7f080060
-			public const int abc_primary_text_material_dark = 2131230816;
+			public const int abc_primary_text_disable_only_material_light = 2131230816;
 			
 			// aapt resource value: 0x7f080061
-			public const int abc_primary_text_material_light = 2131230817;
+			public const int abc_primary_text_material_dark = 2131230817;
 			
 			// aapt resource value: 0x7f080062
-			public const int abc_search_url_text = 2131230818;
+			public const int abc_primary_text_material_light = 2131230818;
+			
+			// aapt resource value: 0x7f080063
+			public const int abc_search_url_text = 2131230819;
 			
 			// aapt resource value: 0x7f080005
 			public const int abc_search_url_text_normal = 2131230725;
@@ -1206,32 +1206,32 @@ namespace XamarinSandBox.Droid
 			// aapt resource value: 0x7f080007
 			public const int abc_search_url_text_selected = 2131230727;
 			
-			// aapt resource value: 0x7f080063
-			public const int abc_secondary_text_material_dark = 2131230819;
-			
 			// aapt resource value: 0x7f080064
-			public const int abc_secondary_text_material_light = 2131230820;
+			public const int abc_secondary_text_material_dark = 2131230820;
 			
 			// aapt resource value: 0x7f080065
-			public const int abc_tint_btn_checkable = 2131230821;
+			public const int abc_secondary_text_material_light = 2131230821;
 			
 			// aapt resource value: 0x7f080066
-			public const int abc_tint_default = 2131230822;
+			public const int abc_tint_btn_checkable = 2131230822;
 			
 			// aapt resource value: 0x7f080067
-			public const int abc_tint_edittext = 2131230823;
+			public const int abc_tint_default = 2131230823;
 			
 			// aapt resource value: 0x7f080068
-			public const int abc_tint_seek_thumb = 2131230824;
+			public const int abc_tint_edittext = 2131230824;
 			
 			// aapt resource value: 0x7f080069
-			public const int abc_tint_spinner = 2131230825;
+			public const int abc_tint_seek_thumb = 2131230825;
 			
 			// aapt resource value: 0x7f08006a
-			public const int abc_tint_switch_thumb = 2131230826;
+			public const int abc_tint_spinner = 2131230826;
 			
 			// aapt resource value: 0x7f08006b
-			public const int abc_tint_switch_track = 2131230827;
+			public const int abc_tint_switch_thumb = 2131230827;
+			
+			// aapt resource value: 0x7f08006c
+			public const int abc_tint_switch_track = 2131230828;
 			
 			// aapt resource value: 0x7f08004c
 			public const int accent = 2131230796;
@@ -1299,6 +1299,9 @@ namespace XamarinSandBox.Droid
 			// aapt resource value: 0x7f080054
 			public const int colorAccent = 2131230804;
 			
+			// aapt resource value: 0x7f080055
+			public const int colorLoginButton = 2131230805;
+			
 			// aapt resource value: 0x7f080052
 			public const int colorPrimary = 2131230802;
 			
@@ -1308,11 +1311,11 @@ namespace XamarinSandBox.Droid
 			// aapt resource value: 0x7f08004e
 			public const int darkGray = 2131230798;
 			
-			// aapt resource value: 0x7f080058
-			public const int dark_gray = 2131230808;
+			// aapt resource value: 0x7f080059
+			public const int dark_gray = 2131230809;
 			
-			// aapt resource value: 0x7f08006c
-			public const int design_error = 2131230828;
+			// aapt resource value: 0x7f08006d
+			public const int design_error = 2131230829;
 			
 			// aapt resource value: 0x7f08003e
 			public const int design_fab_shadow_end_color = 2131230782;
@@ -1344,8 +1347,8 @@ namespace XamarinSandBox.Droid
 			// aapt resource value: 0x7f080047
 			public const int design_textinput_error_color_light = 2131230791;
 			
-			// aapt resource value: 0x7f08006d
-			public const int design_tint_password_toggle = 2131230829;
+			// aapt resource value: 0x7f08006e
+			public const int design_tint_password_toggle = 2131230830;
 			
 			// aapt resource value: 0x7f080016
 			public const int dim_foreground_disabled_material_dark = 2131230742;
@@ -1365,8 +1368,8 @@ namespace XamarinSandBox.Droid
 			// aapt resource value: 0x7f08001b
 			public const int foreground_material_light = 2131230747;
 			
-			// aapt resource value: 0x7f080057
-			public const int gray = 2131230807;
+			// aapt resource value: 0x7f080058
+			public const int gray = 2131230808;
 			
 			// aapt resource value: 0x7f08001c
 			public const int highlighted_text_material_dark = 2131230748;
@@ -1383,8 +1386,8 @@ namespace XamarinSandBox.Droid
 			// aapt resource value: 0x7f080050
 			public const int lightGray = 2131230800;
 			
-			// aapt resource value: 0x7f080055
-			public const int light_gray = 2131230805;
+			// aapt resource value: 0x7f080056
+			public const int light_gray = 2131230806;
 			
 			// aapt resource value: 0x7f080020
 			public const int material_blue_grey_800 = 2131230752;
@@ -1422,8 +1425,8 @@ namespace XamarinSandBox.Droid
 			// aapt resource value: 0x7f08002b
 			public const int material_grey_900 = 2131230763;
 			
-			// aapt resource value: 0x7f080056
-			public const int med_gray = 2131230806;
+			// aapt resource value: 0x7f080057
+			public const int med_gray = 2131230807;
 			
 			// aapt resource value: 0x7f08004f
 			public const int normal_text = 2131230799;
@@ -1482,11 +1485,11 @@ namespace XamarinSandBox.Droid
 			// aapt resource value: 0x7f08003b
 			public const int switch_thumb_disabled_material_light = 2131230779;
 			
-			// aapt resource value: 0x7f08006e
-			public const int switch_thumb_material_dark = 2131230830;
-			
 			// aapt resource value: 0x7f08006f
-			public const int switch_thumb_material_light = 2131230831;
+			public const int switch_thumb_material_dark = 2131230831;
+			
+			// aapt resource value: 0x7f080070
+			public const int switch_thumb_material_light = 2131230832;
 			
 			// aapt resource value: 0x7f08003c
 			public const int switch_thumb_normal_material_dark = 2131230780;
@@ -1494,8 +1497,8 @@ namespace XamarinSandBox.Droid
 			// aapt resource value: 0x7f08003d
 			public const int switch_thumb_normal_material_light = 2131230781;
 			
-			// aapt resource value: 0x7f080059
-			public const int text_gray = 2131230809;
+			// aapt resource value: 0x7f08005a
+			public const int text_gray = 2131230810;
 			
 			// aapt resource value: 0x7f080051
 			public const int transparent = 2131230801;
@@ -2298,14 +2301,23 @@ namespace XamarinSandBox.Droid
 		public partial class Id
 		{
 			
+			// aapt resource value: 0x7f060081
+			public const int BtnLogin = 2131099777;
+			
 			// aapt resource value: 0x7f06000b
 			public const int MvvmCrossTagId = 2131099659;
 			
 			// aapt resource value: 0x7f06000c
 			public const int MvxBindingTagUnique = 2131099660;
 			
-			// aapt resource value: 0x7f060083
-			public const int action0 = 2131099779;
+			// aapt resource value: 0x7f060080
+			public const int TbxPassword = 2131099776;
+			
+			// aapt resource value: 0x7f06007f
+			public const int TbxUsername = 2131099775;
+			
+			// aapt resource value: 0x7f060086
+			public const int action0 = 2131099782;
 			
 			// aapt resource value: 0x7f060060
 			public const int action_bar = 2131099744;
@@ -2331,8 +2343,8 @@ namespace XamarinSandBox.Droid
 			// aapt resource value: 0x7f060061
 			public const int action_context_bar = 2131099745;
 			
-			// aapt resource value: 0x7f060087
-			public const int action_divider = 2131099783;
+			// aapt resource value: 0x7f06008a
+			public const int action_divider = 2131099786;
 			
 			// aapt resource value: 0x7f060003
 			public const int action_menu_divider = 2131099651;
@@ -2376,8 +2388,8 @@ namespace XamarinSandBox.Droid
 			// aapt resource value: 0x7f060049
 			public const int buttonPanel = 2131099721;
 			
-			// aapt resource value: 0x7f060084
-			public const int cancel_action = 2131099780;
+			// aapt resource value: 0x7f060087
+			public const int cancel_action = 2131099783;
 			
 			// aapt resource value: 0x7f06002e
 			public const int center = 2131099694;
@@ -2391,11 +2403,8 @@ namespace XamarinSandBox.Droid
 			// aapt resource value: 0x7f060057
 			public const int checkbox = 2131099735;
 			
-			// aapt resource value: 0x7f060079
-			public const int checkin = 2131099769;
-			
-			// aapt resource value: 0x7f06008a
-			public const int chronometer = 2131099786;
+			// aapt resource value: 0x7f06008d
+			public const int chronometer = 2131099789;
 			
 			// aapt resource value: 0x7f060037
 			public const int clip_horizontal = 2131099703;
@@ -2409,8 +2418,8 @@ namespace XamarinSandBox.Droid
 			// aapt resource value: 0x7f06004f
 			public const int contentPanel = 2131099727;
 			
-			// aapt resource value: 0x7f060081
-			public const int content_frame = 2131099777;
+			// aapt resource value: 0x7f060084
+			public const int content_frame = 2131099780;
 			
 			// aapt resource value: 0x7f060055
 			public const int custom = 2131099733;
@@ -2442,8 +2451,8 @@ namespace XamarinSandBox.Droid
 			// aapt resource value: 0x7f060010
 			public const int disableHome = 2131099664;
 			
-			// aapt resource value: 0x7f06007f
-			public const int drawer_layout = 2131099775;
+			// aapt resource value: 0x7f060082
+			public const int drawer_layout = 2131099778;
 			
 			// aapt resource value: 0x7f060062
 			public const int edit_query = 2131099746;
@@ -2451,8 +2460,8 @@ namespace XamarinSandBox.Droid
 			// aapt resource value: 0x7f06001f
 			public const int end = 2131099679;
 			
-			// aapt resource value: 0x7f06008f
-			public const int end_padder = 2131099791;
+			// aapt resource value: 0x7f060092
+			public const int end_padder = 2131099794;
 			
 			// aapt resource value: 0x7f060028
 			public const int enterAlways = 2131099688;
@@ -2496,11 +2505,14 @@ namespace XamarinSandBox.Droid
 			// aapt resource value: 0x7f060044
 			public const int image = 2131099716;
 			
-			// aapt resource value: 0x7f06007b
-			public const int image_view_row_icon = 2131099771;
+			// aapt resource value: 0x7f06007e
+			public const int imageView = 2131099774;
 			
-			// aapt resource value: 0x7f06008e
-			public const int info = 2131099790;
+			// aapt resource value: 0x7f06007a
+			public const int image_view_row_icon = 2131099770;
+			
+			// aapt resource value: 0x7f060091
+			public const int info = 2131099793;
 			
 			// aapt resource value: 0x7f060000
 			public const int item_touch_helper_previous_elevation = 2131099648;
@@ -2508,14 +2520,14 @@ namespace XamarinSandBox.Droid
 			// aapt resource value: 0x7f060032
 			public const int left = 2131099698;
 			
-			// aapt resource value: 0x7f060082
-			public const int left_drawer = 2131099778;
+			// aapt resource value: 0x7f060085
+			public const int left_drawer = 2131099781;
 			
-			// aapt resource value: 0x7f060088
-			public const int line1 = 2131099784;
+			// aapt resource value: 0x7f06008b
+			public const int line1 = 2131099787;
 			
-			// aapt resource value: 0x7f06008c
-			public const int line3 = 2131099788;
+			// aapt resource value: 0x7f06008f
+			public const int line3 = 2131099791;
 			
 			// aapt resource value: 0x7f06000d
 			public const int listMode = 2131099661;
@@ -2523,8 +2535,8 @@ namespace XamarinSandBox.Droid
 			// aapt resource value: 0x7f060046
 			public const int list_item = 2131099718;
 			
-			// aapt resource value: 0x7f060086
-			public const int media_actions = 2131099782;
+			// aapt resource value: 0x7f060089
+			public const int media_actions = 2131099785;
 			
 			// aapt resource value: 0x7f060020
 			public const int middle = 2131099680;
@@ -2535,32 +2547,32 @@ namespace XamarinSandBox.Droid
 			// aapt resource value: 0x7f060018
 			public const int multiply = 2131099672;
 			
+			// aapt resource value: 0x7f060098
+			public const int nav_footer = 2131099800;
+			
+			// aapt resource value: 0x7f06009a
+			public const int nav_helpfeedback = 2131099802;
+			
 			// aapt resource value: 0x7f060095
-			public const int nav_footer = 2131099797;
-			
-			// aapt resource value: 0x7f060097
-			public const int nav_helpfeedback = 2131099799;
-			
-			// aapt resource value: 0x7f060092
-			public const int nav_home = 2131099794;
-			
-			// aapt resource value: 0x7f060091
-			public const int nav_items = 2131099793;
+			public const int nav_home = 2131099797;
 			
 			// aapt resource value: 0x7f060094
-			public const int nav_recyclerview = 2131099796;
+			public const int nav_items = 2131099796;
+			
+			// aapt resource value: 0x7f060097
+			public const int nav_recyclerview = 2131099799;
+			
+			// aapt resource value: 0x7f060099
+			public const int nav_settings = 2131099801;
 			
 			// aapt resource value: 0x7f060096
-			public const int nav_settings = 2131099798;
-			
-			// aapt resource value: 0x7f060093
-			public const int nav_viewpager = 2131099795;
+			public const int nav_viewpager = 2131099798;
 			
 			// aapt resource value: 0x7f060073
 			public const int navigation_header_container = 2131099763;
 			
-			// aapt resource value: 0x7f06007a
-			public const int navigation_view = 2131099770;
+			// aapt resource value: 0x7f060079
+			public const int navigation_view = 2131099769;
 			
 			// aapt resource value: 0x7f060024
 			public const int never = 2131099684;
@@ -2682,8 +2694,8 @@ namespace XamarinSandBox.Droid
 			// aapt resource value: 0x7f060034
 			public const int start = 2131099700;
 			
-			// aapt resource value: 0x7f060085
-			public const int status_bar_latest_event_content = 2131099781;
+			// aapt resource value: 0x7f060088
+			public const int status_bar_latest_event_content = 2131099784;
 			
 			// aapt resource value: 0x7f06005a
 			public const int submenuarrow = 2131099738;
@@ -2694,29 +2706,29 @@ namespace XamarinSandBox.Droid
 			// aapt resource value: 0x7f06000f
 			public const int tabMode = 2131099663;
 			
-			// aapt resource value: 0x7f06008d
-			public const int text = 2131099789;
+			// aapt resource value: 0x7f060090
+			public const int text = 2131099792;
 			
-			// aapt resource value: 0x7f06008b
-			public const int text2 = 2131099787;
+			// aapt resource value: 0x7f06008e
+			public const int text2 = 2131099790;
 			
 			// aapt resource value: 0x7f060052
 			public const int textSpacerNoButtons = 2131099730;
 			
-			// aapt resource value: 0x7f06007c
-			public const int text_container = 2131099772;
+			// aapt resource value: 0x7f06007b
+			public const int text_container = 2131099771;
 			
 			// aapt resource value: 0x7f060078
 			public const int text_input_password_toggle = 2131099768;
 			
+			// aapt resource value: 0x7f06007c
+			public const int text_view_fullname = 2131099772;
+			
 			// aapt resource value: 0x7f06007d
-			public const int text_view_fullname = 2131099773;
+			public const int text_view_username = 2131099773;
 			
-			// aapt resource value: 0x7f06007e
-			public const int text_view_username = 2131099774;
-			
-			// aapt resource value: 0x7f060089
-			public const int time = 2131099785;
+			// aapt resource value: 0x7f06008c
+			public const int time = 2131099788;
 			
 			// aapt resource value: 0x7f060048
 			public const int title = 2131099720;
@@ -2724,11 +2736,11 @@ namespace XamarinSandBox.Droid
 			// aapt resource value: 0x7f06004d
 			public const int title_template = 2131099725;
 			
-			// aapt resource value: 0x7f060080
-			public const int toolbar = 2131099776;
+			// aapt resource value: 0x7f060083
+			public const int toolbar = 2131099779;
 			
-			// aapt resource value: 0x7f060090
-			public const int toolbar_title = 2131099792;
+			// aapt resource value: 0x7f060093
+			public const int toolbar_title = 2131099795;
 			
 			// aapt resource value: 0x7f060027
 			public const int top = 2131099687;
@@ -2922,57 +2934,61 @@ namespace XamarinSandBox.Droid
 			public const int FirstView = 2130903079;
 			
 			// aapt resource value: 0x7f030028
-			public const int fragment_home = 2130903080;
+			public const int fragment_navigation = 2130903080;
 			
 			// aapt resource value: 0x7f030029
-			public const int fragment_navigation = 2130903081;
+			public const int fragment_navigation_header = 2130903081;
 			
 			// aapt resource value: 0x7f03002a
 			public const int HomeFragment = 2130903082;
-			public const int fragment_navigation_header = 2130903082;
 			
 			// aapt resource value: 0x7f03002b
-			public const int MainView = 2130903083;
 			public const int login_activity = 2130903083;
 			
 			// aapt resource value: 0x7f03002c
-			public const int notification_media_action = 2130903084;
+			public const int MainView = 2130903084;
 			
 			// aapt resource value: 0x7f03002d
-			public const int notification_media_cancel_action = 2130903085;
+			public const int notification_media_action = 2130903085;
 			
 			// aapt resource value: 0x7f03002e
-			public const int notification_template_big_media_narrow = 2130903086;
+			public const int notification_media_cancel_action = 2130903086;
 			
 			// aapt resource value: 0x7f03002f
-			public const int notification_template_lines = 2130903087;
+			public const int notification_template_big_media = 2130903087;
 			
 			// aapt resource value: 0x7f030030
-			public const int notification_template_media = 2130903088;
+			public const int notification_template_big_media_narrow = 2130903088;
 			
 			// aapt resource value: 0x7f030031
-			public const int notification_template_part_chronometer = 2130903089;
+			public const int notification_template_lines = 2130903089;
 			
 			// aapt resource value: 0x7f030032
-			public const int notification_template_part_time = 2130903090;
+			public const int notification_template_media = 2130903090;
 			
 			// aapt resource value: 0x7f030033
-			public const int select_dialog_item_material = 2130903091;
+			public const int notification_template_part_chronometer = 2130903091;
 			
 			// aapt resource value: 0x7f030034
-			public const int select_dialog_multichoice_material = 2130903092;
+			public const int notification_template_part_time = 2130903092;
 			
 			// aapt resource value: 0x7f030035
-			public const int select_dialog_singlechoice_material = 2130903093;
+			public const int select_dialog_item_material = 2130903093;
 			
 			// aapt resource value: 0x7f030036
-			public const int SplashScreen = 2130903094;
+			public const int select_dialog_multichoice_material = 2130903094;
 			
 			// aapt resource value: 0x7f030037
-			public const int support_simple_spinner_dropdown_item = 2130903095;
+			public const int select_dialog_singlechoice_material = 2130903095;
 			
 			// aapt resource value: 0x7f030038
-			public const int toolbar = 2130903096;
+			public const int SplashScreen = 2130903096;
+			
+			// aapt resource value: 0x7f030039
+			public const int support_simple_spinner_dropdown_item = 2130903097;
+			
+			// aapt resource value: 0x7f03003a
+			public const int toolbar = 2130903098;
 			
 			static Layout()
 			{
